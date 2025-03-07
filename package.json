@@ -1,0 +1,32 @@
+{
+  "name": "sd-card-copy-over",
+  "version": "0.0.1",
+  "description": "a utility for copying over GoPro videos from SD card to a RasberryPi.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianL3/sd-card-copy-over.git"
+  },
+  "keywords": [
+    "GoPro",
+    "Video",
+    "File",
+    "Transfer"
+  ],
+  "author": "Brian Ledbetter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrianL3/sd-card-copy-over/issues"
+  },
+  "homepage": "https://github.com/BrianL3/sd-card-copy-over#readme",
+  "dependencies": {
+    "onoff": "^6.0.3"
+  }
+}
